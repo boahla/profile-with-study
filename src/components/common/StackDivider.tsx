@@ -1,12 +1,12 @@
 import styled from "@emotion/styled";
-import { ReactNode } from "react";
+import { CSSProperties, ReactNode } from "react";
 
 const StackDivider = ({
   items,
   style,
 }: {
   items: ReactNode[];
-  style?: React.CSSProperties;
+  style?: CSSProperties;
 }) => {
   return (
     <Container style={style}>
